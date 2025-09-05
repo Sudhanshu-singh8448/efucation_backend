@@ -1,0 +1,138 @@
+College_ID,College_Name,College_Type,Estd_Year,Division,District,Location_City,Address,Affiliating_University,Key_Degrees_Offered,Website,Contact_Info,Review_Score_5,Review_Summary,Estimated_Annual_Fee_INR
+Jammu Division,,,,,,,,,,,,,,
+J-GDC-01,GGM Science College,Degree College,1905,Jammu,Jammu,Jammu,"Canal Road, Jammu-Tawi(J&K) 180001",Cluster University of Jammu,"BSc, BCA, MA English, M.Sc Geology",www.ggmsciencecollege.in,0191-2953033,3.8,"Good faculty and infrastructure, but lacks placement opportunities and some buildings need repair.","10,000 - 12,500"
+J-GDC-02,"Govt. College for Women, Parade Ground",Degree College,1944,Jammu,Jammu,Jammu,"Opposite Parade Ground, Old Jammu City, Jammu and Kashmir UT, 180001",Autonomous (Cluster University of Jammu),"BA, BSc, BCom, BCA, M.Sc, MCA",www.gcwparade.in,0191-2544305,3.5,"Praised for affordable fees and decent academics but criticized for poor placements, small campus, and congested area.","28,000 - 95,000"
+J-GDC-03,Govt. Maulana Azad Memorial College,Degree College,1954,Jammu,Jammu,Jammu,"Baba Saheb Ambedkar Road, Jammu Tawi (J&K)-180006",Cluster University of Jammu,"BA, BSc, BCom, BCA",www.mamcollegejammu.org,0191-2430754,3.6,"Good faculty and campus life, but issues with canteen size, washroom hygiene, and occasional campus disturbances.","5,000 - 15,000"
+J-GDC-04,Govt. SPMR College of Commerce,Degree College,1955,Jammu,Jammu,Jammu,"Canal Road, Jammu",Cluster University of Jammu,"BCom, BBA, BCA, MCom",www.spmrcollege.org,9419119869,3.6,"Good faculty and placement record for commerce, but infrastructure needs improvement.",N/A
+J-GDC-05,"Govt. Degree College, Akhnoor",Degree College,2005,Jammu,Jammu,Akhnoor,"Kaleeth Road, Akhnoor",University of Jammu,"BA, BSc, BCom, BCA",gdcakhnoor.com,N/A,3.5,"Supportive faculty, but poor infrastructure, lack of transport, and minimal placement support.","5,000 - 9,000"
+J-GDC-06,"Govt. Degree College, Paloura (Mishriwala)",Degree College,2008,Jammu,Jammu,Jammu,"Mishriwala, Jammu, 180018",University of Jammu,"BA, BSc",www.gdcpaloura.in,0191-2565182,4.1,"Good academic environment and supportive faculty, with average placements.","46,000 - 67,000 (Total)"
+J-GDC-07,"Govt. Degree College, Bishnah",Degree College,N/A,Jammu,Jammu,Bishnah,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-08,"Govt. Degree College, R.S Pura",Degree College,N/A,Jammu,Jammu,R.S Pura,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-09,"Govt. Degree College, Marh",Degree College,N/A,Jammu,Jammu,Marh,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-10,"Govt. Degree College, Nagrota",Degree College,N/A,Jammu,Jammu,Nagrota,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-11,"Govt. Degree College, Sidhra",Degree College,N/A,Jammu,Jammu,Sidhra,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-12,"Govt. Degree College, Kunjwani/Sainik Colony",Degree College,N/A,Jammu,Jammu,Jammu,Kunjwani,University of Jammu,"BA, BSc, BCom",www.gdckunjwani.in,N/A,N/A,N/A,N/A
+J-GDC-13,"Govt. College for Women, Bhagwati Nagar",Degree College,N/A,Jammu,Jammu,Jammu,Bhagwati Nagar,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-14,"Govt. Degree College, Jourian",Degree College,N/A,Jammu,Jammu,Jourian,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-15,"Govt. Degree College, Khour",Degree College,N/A,Jammu,Jammu,Khour,N/A,University of Jammu,"BA, BSc, BCom",gdckhour.com,N/A,N/A,N/A,N/A
+J-GDC-16,"Govt. Degree College, Jindrah",Degree College,N/A,Jammu,Jammu,Jindrah,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-17,"Govt. Degree College, Samba",Degree College,2005,Jammu,Samba,Samba,"Mansar Morh, Samba 184121",University of Jammu,"BA, BSc, BCom",gdcsamba.in,01923-241044,N/A,"Good governance, transport facility, and qualified faculty noted.",N/A
+J-GDC-18,"Govt. Degree College, Ghagwal",Degree College,N/A,Jammu,Samba,Ghagwal,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-19,"Govt. Degree College, Vijaypur",Degree College,N/A,Jammu,Samba,Vijaypur,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-20,"Govt. Degree College, Ramgarh",Degree College,N/A,Jammu,Samba,Ramgarh,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-21,"Govt. Degree College, Parmandal",Degree College,N/A,Jammu,Samba,Parmandal,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-22,"Govt. Degree College for Boys, Kathua",Degree College,1961,Jammu,Kathua,Kathua,N/A,University of Jammu,"BA, BSc, BCom, BBA, BCA, M.Sc Geography",www.gdckathua.in,principal.gdckth@jk.gov.in,N/A,N/A,N/A
+J-GDC-23,"Govt. Degree College for Women, Kathua",Degree College,N/A,Jammu,Kathua,Kathua,N/A,University of Jammu,"BA, BSc",www.gdcwkathua.in,N/A,N/A,"Good infrastructure and experienced staff, but lacks PG programs and hostel facilities.",N/A
+J-GDC-24,"Govt. Degree College, Hiranagar",Degree College,N/A,Jammu,Kathua,Hiranagar,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-25,"Govt. Degree College, Basholi",Degree College,N/A,Jammu,Kathua,Basholi,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-26,"Govt. Degree College, Bani",Degree College,N/A,Jammu,Kathua,Bani,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-27,"Govt. Degree College, Billawar",Degree College,N/A,Jammu,Kathua,Billawar,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-28,"Govt. Degree College, Mahanpur",Degree College,N/A,Jammu,Kathua,Mahanpur,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-29,"Govt. Degree College, Ramkote",Degree College,N/A,Jammu,Kathua,Ramkote,N/A,University of Jammu,"BA, BSc, BCom",gdcramkote.in,N/A,N/A,N/A,N/A
+J-GDC-30,"Govt. Degree College, Marheen",Degree College,2019,Jammu,Kathua,Marheen,"Tehsil Marheen, District Kathua",University of Jammu,"BA, BSc, BCom",gdcmarheen.edu.in,N/A,N/A,N/A,N/A
+J-GDC-31,"Govt. Degree College Boys, Udhampur",Degree College,N/A,Jammu,Udhampur,Udhampur,"Leray, Udhampur, Jammu and Kashmir 182101",University of Jammu,"BA, BSc, BCom, BBA, BCA, M.Sc, MA",gdcudhampur.in,9419160428,2.4,"Okay for a general degree, but no placements and poor infrastructure.",N/A
+J-GDC-32,"Govt. Women College, Udhampur",Degree College,N/A,Jammu,Udhampur,Udhampur,"Kallar Himmati, Battal Ballian Road, Udhampur, 182101",University of Jammu,"BA, BSc, BCom",N/A,01992-270681,N/A,N/A,N/A
+J-GDC-33,"Govt. Degree College, Ramnagar",Degree College,N/A,Jammu,Udhampur,Ramnagar,Harsh Nagar Ramnagar,University of Jammu,"BA, BSc, BCom",N/A,01990-227031,N/A,N/A,N/A
+J-GDC-34,"Govt. Degree College, Majalta",Degree College,N/A,Jammu,Udhampur,Majalta,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-35,"Govt. Degree College, Chenani",Degree College,N/A,Jammu,Udhampur,Chenani,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-36,"Govt. Degree College, Neeli Nallah",Degree College,N/A,Jammu,Udhampur,Udhampur,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-37,"Govt. Degree College, Dudu Basatgarh",Degree College,N/A,Jammu,Udhampur,Dudu Basatgarh,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-38,"Govt. General Zorawar Singh Memorial Degree College, Reasi",Degree College,2003,Jammu,Reasi,Reasi,"Aghar Ballian, Near District Hospital, Reasi -182311",University of Jammu,"BA, BSc, BCom, BCA",gdcreasi.co.in,01991-245590,N/A,"Qualified faculty and ICT classrooms, but inadequate infrastructure and no hostel facilities.",N/A
+J-GDC-39,"Govt. Degree College, Dharmari",Degree College,2008,Jammu,Reasi,Dharmari,Degree Collage Dharmari Reasi,University of Jammu,"BA, BSc, BCom",N/A,9419999805,N/A,N/A,N/A
+J-GDC-40,"Govt. Degree College, Sarh Bagga Mahore",Degree College,N/A,Jammu,Reasi,Mahore,Bagga Mahore,University of Jammu,"BA, BSc, BCom",N/A,9419255646,N/A,N/A,N/A
+J-GDC-41,"Govt. Degree College, Pouni",Degree College,N/A,Jammu,Reasi,Pouni,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-42,"Govt. Degree College, Kakryal, Katra",Degree College,N/A,Jammu,Reasi,Katra,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-43,"Govt. Degree College, Doda",Degree College,1989,Jammu,Doda,Doda,Doda - 182202,University of Jammu,"BA, BSc, BCA, M.Sc Environmental Science",www.gdcdoda.in,01996-233552,N/A,N/A,N/A
+J-GDC-44,"Govt. Degree College, Bhaderwah",Degree College,1955,Jammu,Doda,Bhaderwah,N/A,University of Jammu,"BA, BSc, BCom, BCA, M.Sc Chemistry, MA Urdu",gdcbhadarwah.ac.in,01997-244155,2.8,Noted for poor infrastructure and facilities; no professional courses and limited placements.,"8,000 - 18,000"
+J-GDC-45,"Govt. Degree College, Kishtwar",Degree College,N/A,Jammu,Kishtwar,Kishtwar,"Shaktinagar, Kishtwar, 182204",University of Jammu,"BA, BSc, BCom",www.gdckishtwar.in,01995-259513,3.7,"Offers standard facilities like library, labs, and hostels.",N/A
+J-GDC-46,"Govt. Degree College, Ramban",Degree College,2005,Jammu,Ramban,Ramban,"Tehsil and District, Ramban, 182144",University of Jammu,"BA, BSc, BCom",www.gdcramban.com,9419167464,4.1,"Good for rural students but has inadequate infrastructure, no hostel, and low student progression.",N/A
+J-GDC-47,"Govt. Degree College, Rajouri",Degree College,1981,Jammu,Rajouri,Rajouri,"Kheora, Rajouri",University of Jammu,"BA, BSc, BCom, BCA, MCA, M.Sc Chemistry",www.gpgcollegerajouri.ac.in,01962-262510,4.7,"Good campus placements and experienced faculty, but some infrastructure is modest.","10,000 - 18,000"
+J-GDC-48,"Govt. Degree College, Thanamandi",Degree College,N/A,Jammu,Rajouri,Thanamandi,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-49,"Govt. Degree College, Nowshera",Degree College,N/A,Jammu,Rajouri,Nowshera,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-50,"Govt. Degree College, Budhal",Degree College,N/A,Jammu,Rajouri,Budhal,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-51,"Govt. Degree College, Sunderbani",Degree College,N/A,Jammu,Rajouri,Sunderbani,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-52,"Govt. Degree College, Kalakote",Degree College,N/A,Jammu,Rajouri,Kalakote,N/A,University of Jammu,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+J-GDC-53,"Shri Krishan Chander Govt. Degree College, Poonch",Degree College,1955,Jammu,Poonch,Poonch,"Near Bus Stand Poonch, Poonch-185101",University of Jammu,"BA, BSc, BCom",www.gdcpoonch.co.in,01965-220231,4.0,Offers a range of UG courses with a focus on holistic development.,N/A
+J-GDC-54,"Govt. Degree College, Mendhar",Degree College,N/A,Jammu,Poonch,Mendhar,"Tehsil-Mendhar, District Poonch-185211",University of Jammu,"BA, BSc, BCom",gdcmendhar.com,01965-226793,N/A,N/A,N/A
+J-GDC-55,"Govt. Degree College, Surankote",Degree College,N/A,Jammu,Poonch,Surankote,"Tehsil-Surankote, District Poonch-185121",University of Jammu,"BA, BSc, BCom",N/A,01965-231231,N/A,N/A,N/A
+J-ENGG-01,"Indian Institute of Technology (IIT), Jammu",Engineering,2016,Jammu,Jammu,Jammu,N/A,Autonomous,"B.Tech, M.Tech, PhD",www.iitjammu.ac.in,N/A,4.1,"Good faculty and growing infrastructure, but still under development.","26,000 - 8,00,000"
+J-ENGG-02,"Govt. College of Engineering & Technology, Jammu",Engineering,1994,Jammu,Jammu,Jammu,"Chak Bhalwal, Jammu, 181122",University of Jammu (Autonomous),"B.E. (Civil, Mech, ECE, CSE, Electrical)",www.gcetjammu.org.in,0191-2623087,3.7,"Well-educated staff and good campus, but criticized for poor transportation and lack of some student facilities.","1,86,000 (Total)"
+J-ENGG-03,"College of Engineering, Shri Mata Vaishno Devi University",Engineering,1999,Jammu,Reasi,Katra,"Katra, Jammu and Kashmir - 182320",State University,"B.Tech, M.Tech, B.Arch",www.smvdu.ac.in,N/A,3.8,Offers a wide range of engineering and technology courses.,"21,400 - 7,06,000"
+J-ENGG-04,"College of Engineering and Technology, Baba Ghulam Shah Badshah University",Engineering,2007,Jammu,Rajouri,Rajouri,Rajouri- 185234,State University,B.Tech,www.bgsbu.ac.in,01962-241002,3.6,Offers various B.Tech degrees in core engineering fields.,"10,800 - 2,36,000"
+J-MED-01,"All India Institute of Medical Sciences (AIIMS), Vijaypur",Medical,2021,Jammu,Samba,Vijaypur,"Vijaypur, Jammu",Institute of National Importance,MBBS,N/A,N/A,4.2,"New institution with modern facilities, still establishing its reputation.","5,860"
+J-MED-02,"Government Medical College, Jammu",Medical,1972,Jammu,Jammu,Jammu,"Bakshi Nagar, Jammu",University of Jammu,"MBBS, MD, MS, Diploma",gmcjammu.nic.in,0191-2584290,4.1,"Excellent placements and experienced faculty, but some infrastructure needs modernization.","12,000 - 75,000"
+J-MED-03,"Government Medical College, Kathua",Medical,2019,Jammu,Kathua,Kathua,"Chak Sajjan, Kathua",University of Jammu,MBBS,www.gmckathua.in,N/A,N/A,N/A,N/A
+J-MED-04,"Government Medical College, Doda",Medical,2020,Jammu,Doda,Doda,N/A,University of Kashmir,MBBS,N/A,N/A,N/A,N/A,N/A
+J-MED-05,"Government Medical College, Rajouri",Medical,2019,Jammu,Rajouri,Rajouri,"Mehra, Rajouri",University of Jammu,MBBS,N/A,N/A,N/A,N/A,N/A
+J-MED-06,"Government Medical College, Udhampur",Medical,2023,Jammu,Udhampur,Udhampur,N/A,University of Jammu,MBBS,N/A,N/A,N/A,N/A,N/A
+J-POLY-01,"Government Polytechnic College, Jammu",Polytechnic,1960,Jammu,Jammu,Jammu,"Near Amar Singh Club, Bikram Chowk, Jammu, 180004",J&K Board of Technical Education,Diploma in Engg.,www.govtpolytechnicjammu.edu.in,0191-2435373,4.5,"Solid foundation for technical education with experienced faculty, but infrastructure needs upgrades.",N/A
+J-POLY-02,"Government Polytechnic for Women, Jammu",Polytechnic,N/A,Jammu,Jammu,Jammu,"Lower Shiv Nagar, (Near AG's Office), Jammu",J&K Board of Technical Education,Diploma in Engg.,www.gpfwjammu.edu.in,0191-2955320,N/A,N/A,N/A
+J-POLY-03,"Government Polytechnic College, Kathua",Polytechnic,2012,Jammu,Kathua,Kathua,"Kartar Education Trust, NH-1A, Barnoti, Kathua",J&K Board of Technical Education,Diploma in Engg.,www.govtpolytechnickathua.in,N/A,N/A,N/A,N/A
+J-POLY-04,"Government Polytechnic College, Samba",Polytechnic,N/A,Jammu,Samba,Samba,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,N/A,N/A
+J-POLY-05,"Government Polytechnic College, Udhampur",Polytechnic,N/A,Jammu,Udhampur,Udhampur,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,N/A,N/A
+J-POLY-06,"Government Polytechnic College, Reasi",Polytechnic,N/A,Jammu,Reasi,Reasi,"Mari, Reasi",J&K Board of Technical Education,Diploma in Engg.,www.govtpolyreasi.edu.in,N/A,N/A,N/A,N/A
+J-POLY-07,"Government Polytechnic College, Doda",Polytechnic,N/A,Jammu,Doda,Doda,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,N/A,N/A
+J-POLY-08,"Government Polytechnic College, Kishtwar",Polytechnic,N/A,Jammu,Kishtwar,Kishtwar,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,N/A,N/A
+J-POLY-09,"Government Polytechnic College, Ramban",Polytechnic,N/A,Jammu,Ramban,Ramban,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,N/A,N/A
+J-POLY-10,"Government Polytechnic College, Poonch",Polytechnic,N/A,Jammu,Poonch,Poonch,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,N/A,N/A
+Kashmir Division,,,,,,,,,,,,,,
+K-GDC-01,Amar Singh College,Degree College,1913,Kashmir,Srinagar,Srinagar,"Gogji Bagh, Srinagar, 190008",Cluster University of Srinagar,"BA, BSc, BCom, BCA, MA, M.Sc",www.amarsinghcollege.ac.in,0194-2311251,3.5,"Historic campus with good faculty, but placements are limited and some infrastructure is poor.","5,000 - 20,000"
+K-GDC-02,Sri Pratap College,Degree College,1905,Kashmir,Srinagar,Srinagar,"Maulana Azad Road, Srinagar, 190001",Cluster University of Srinagar,"BSc, M.Sc",www.spcollege.edu.in,0194-2476828,3.6,"Excellent academics and faculty, but very poor placement system and some labs are outdated.","5,000 - 15,000"
+K-GDC-03,"Govt. College for Women, M.A. Road",Degree College,1950,Kashmir,Srinagar,Srinagar,"M.A. Road, Srinagar, 190001",Cluster University of Srinagar,"BA, BSc, BCom, BBA, BCA",www.gcwmaroad.edu.in,0194-2479432,N/A,N/A,N/A
+K-GDC-04,Islamia College of Science and Commerce,Degree College,1961,Kashmir,Srinagar,Srinagar,"Hawal, Srinagar, 190002",Autonomous (University of Kashmir),"BSc, BCom, BBA, BCA, MBA, MA, MCA",www.islamiacollege.edu.in,0194-2426819,3.8,"Good academics and infrastructure, but placements are limited and some faculty can be strict.","8,000 - 17,000"
+K-GDC-05,"Govt. Degree College, Bemina",Degree College,1970,Kashmir,Srinagar,Srinagar,"Bemina, Srinagar",Cluster University of Srinagar,"BA, BSc, BCom, BCA",www.gdcbemina.edu.in,N/A,N/A,N/A,N/A
+K-GDC-06,"Govt. Degree College Boys, Baramulla",Degree College,N/A,Kashmir,Baramulla,Baramulla,"NH1 Khawaja Bagh, Baramulla, 193101",University of Kashmir,"BA, BSc, BCom",www.baramullacollege.net,01952-234214,3.8,"Good infrastructure and faculty, but placement opportunities are very limited.",N/A
+K-GDC-07,"Government College for Women, Baramulla",Degree College,N/A,Kashmir,Baramulla,Baramulla,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-08,"Government Degree College Boys, Sopore",Degree College,1951,Kashmir,Baramulla,Sopore,Sopore Town,University of Kashmir,"BA, BSc, BCom",www.gdcsopore.ac.in,01954-222262,N/A,N/A,N/A
+K-GDC-09,"Women's College, Sopore",Degree College,N/A,Kashmir,Baramulla,Sopore,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-10,"Government Degree College, Uri",Degree College,N/A,Kashmir,Baramulla,Uri,N/A,University of Kashmir,"BA, BSc, BCom",gdcuri.ac.in,N/A,N/A,N/A,N/A
+K-GDC-11,"Government Degree College, Pattan",Degree College,N/A,Kashmir,Baramulla,Pattan,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-12,"Govt Degree College, Hadipora",Degree College,N/A,Kashmir,Baramulla,Hadipora,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-13,"Govt. Degree College, Tangmarg",Degree College,N/A,Kashmir,Baramulla,Tangmarg,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-14,"Govt. Degree College, Kreeri",Degree College,N/A,Kashmir,Baramulla,Kreeri,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-15,"Govt. Degree College Boys, Anantnag",Degree College,N/A,Kashmir,Anantnag,Anantnag,"Khanabal, Anantnag",University of Kashmir,"BA, BSc, BCom, BBA, BCA",gdcboysang.ac.in,01932-222308,3.3,Decent campus but criticized for very poor placement rates and tedious admission process.,"5,200 - 11,000"
+K-GDC-16,"Govt. College for Women, Anantnag",Degree College,N/A,Kashmir,Anantnag,Anantnag,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-17,"Government Degree College, Bijbehara",Degree College,N/A,Kashmir,Anantnag,Bijbehara,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-18,"Govt. Degree College, Dooru",Degree College,N/A,Kashmir,Anantnag,Dooru,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-19,"Government Degree College, Kokernag",Degree College,N/A,Kashmir,Anantnag,Kokernag,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-20,"Govt. Degree College, Uttersoo",Degree College,N/A,Kashmir,Anantnag,Uttersoo,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-21,"Govt. Degree College, Vailoo Larnoo",Degree College,N/A,Kashmir,Anantnag,Vailoo,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-22,"Govt. Degree College, Verinag",Degree College,N/A,Kashmir,Anantnag,Verinag,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-23,"Govt. Degree College, Mattan",Degree College,N/A,Kashmir,Anantnag,Mattan,N/A,University of Kashmir,"BA, BSc, BCom",gdcmattan.ac.in,N/A,3.9,Known for excellence in education and fostering holistic development.,N/A
+K-GDC-24,"Sheikh-ul-Alam Memorial Degree College, Budgam",Degree College,2005,Kashmir,Budgam,Budgam,N/A,University of Kashmir,"BA, BSc, BCom",www.samdc.edu.in,N/A,N/A,N/A,N/A
+K-GDC-25,"Govt. Degree College, Beerwah",Degree College,N/A,Kashmir,Budgam,Beerwah,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-26,"Govt. Degree College, Khansahib",Degree College,N/A,Kashmir,Budgam,Khansahib,"Main Road, Khansahib, 191111",University of Kashmir,"BA, BSc, BCom",www.gdckhansahib.net,9419010955,N/A,N/A,N/A
+K-GDC-27,"Govt. Degree College, Chadoora",Degree College,N/A,Kashmir,Budgam,Chadoora,N/A,University of Kashmir,"BA, BCom",gdcchadoora.edu.in,N/A,N/A,N/A,N/A
+K-GDC-28,"Govt. Degree College Boys, Kupwara",Degree College,1988,Kashmir,Kupwara,Kupwara,"Bohipora, Kupwara",University of Kashmir,"BA, BSc, BCom, BCA",www.gdckupwara.edu.in,N/A,N/A,Offers a range of UG courses with various specializations.,"5,000 - 6,000"
+K-GDC-29,"Govt. Degree College, Handwara",Degree College,N/A,Kashmir,Kupwara,Handwara,N/A,University of Kashmir,"BA, BSc, BCom",www.gdchandwara.edu.in,N/A,N/A,N/A,N/A
+K-GDC-30,"Govt. Degree College, Tangdhar",Degree College,N/A,Kashmir,Kupwara,Tangdhar,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-31,"Govt. Degree College, Sogam",Degree College,N/A,Kashmir,Kupwara,Sogam,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-32,"Govt. Degree College Women, Kupwara",Degree College,N/A,Kashmir,Kupwara,Kupwara,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-33,"Govt. Degree College Boys, Pulwama",Degree College,1986,Kashmir,Pulwama,Pulwama,"Near Sports Stadium Pulwama, 192301",University of Kashmir,"BA, BSc, BCom, BBA, BCA",www.dcpulwama.edu.in,N/A,N/A,N/A,N/A
+K-GDC-34,"Govt. Degree College Women, Pulwama",Degree College,N/A,Kashmir,Pulwama,Pulwama,N/A,University of Kashmir,"BA, BSc, BCom",N/A,N/A,N/A,N/A,N/A
+K-GDC-35,"Govt. Degree College, Pampore",Degree College,N/A,Kashmir,Pulwama,Pampore,N/A,University of Kashmir,"BA, BSc, BCom",gdcpampore.edu.in,N/A,N/A,N/A,N/A
+K-GDC-36,"Govt. Degree College, Ganderbal",Degree College,2002,Kashmir,Ganderbal,Ganderbal,N/A,University of Kashmir,"BA, BSc, BCom, BCA, B.Sc IT",www.gdcganderbal.edu.in,N/A,N/A,"Offers various courses in Arts, Science, Commerce, and IT.",N/A
+K-GDC-37,"Govt. Degree College, Kangan",Degree College,2011,Kashmir,Ganderbal,Kangan,N/A,University of Kashmir,BA,www.gdckangan.edu.in,N/A,N/A,N/A,N/A
+K-GDC-38,"Government Degree College, Kulgam",Degree College,2004,Kashmir,Kulgam,Kulgam,"Chawalgam Road, Nihama Kulgam",University of Kashmir,"BA, BSc, BCom, BBA, BCA",www.gdckulgam.edu.in,01931-260177,N/A,N/A,"7,800 - 11,500"
+K-GDC-40,"Govt. Hassan Khoihami Memorial Degree College, Bandipora",Degree College,2005,Kashmir,Bandipora,Bandipora,"Patushay, Bandipora, 193502",University of Kashmir,"BA, BSc, BCom, BCA",gdcbandipora.edu.in,principal@gdcbandipora.edu.in,N/A,N/A,N/A
+K-ENGG-01,"National Institute of Technology (NIT), Srinagar",Engineering,1960,Kashmir,Srinagar,Srinagar,"Hazratbal, Srinagar, 190006",Institute of National Importance,"B.Tech, M.Tech, M.Sc, PhD",www.nitsri.ac.in,0194-2422032,3.8,"Beautiful campus and good faculty, but placements are inconsistent and depend on the region's stability.","1,65,000"
+K-ENGG-02,Islamic University of Science and Technology (IUST),Engineering,2005,Kashmir,Pulwama,Awantipora,"Awantipora, Pulwama",State University,"B.Tech, M.Tech, MBA",www.iust.ac.in,N/A,3.6,"Praised for a modern, industry-relevant curriculum and structured environment.","11,980 - 3,10,000"
+K-ENGG-03,"GCET, Ganderbal Kashmir",Engineering,N/A,Kashmir,Ganderbal,Safapora,"Safapora, Ganderbal",University of Kashmir,B.Tech,N/A,N/A,N/A,N/A,N/A
+K-MED-01,"Government Medical College, Srinagar",Medical,1959,Kashmir,Srinagar,Srinagar,"Karan Nagar, Srinagar",University of Kashmir,"MBBS, MD, MS",www.gmcs.edu.in,0194-2504114,4.0,"Prestigious college with excellent clinical exposure, but hostel facilities and social life are lacking.","12,000 - 2,25,000"
+K-MED-02,Sher-I-Kashmir Institute of Medical Sciences (SKIMS),Medical,1988,Kashmir,Srinagar,Srinagar,"Soura, Srinagar",Deemed University,"MBBS, MD, MS",www.skims.ac.in,N/A,4.2,Renowned institution with strong academics and research focus.,"12,000 - 2,25,000"
+K-MED-03,"Government Medical College, Anantnag",Medical,2019,Kashmir,Anantnag,Anantnag,"Dialgam, Anantnag",University of Kashmir,MBBS,N/A,N/A,N/A,N/A,N/A
+K-MED-04,"Government Medical College, Baramulla",Medical,2019,Kashmir,Baramulla,Baramulla,"Kanthbagh, Baramulla",University of Kashmir,MBBS,N/A,N/A,N/A,N/A,N/A
+K-MED-05,"Government Medical College, Handwara",Medical,2023,Kashmir,Kupwara,Handwara,"Handwara, Kupwara",University of Kashmir,MBBS,gmchandwara.co.in,N/A,N/A,N/A,N/A
+K-POLY-01,"K.G. Polytechnic, Srinagar",Polytechnic,N/A,Kashmir,Srinagar,Srinagar,"Gogji Bagh, Srinagar",J&K Board of Technical Education,Diploma in Engg.,www.kgpolytechnic.org,0194-2310144,N/A,N/A,N/A
+K-POLY-02,"Govt. Polytechnic for Women, Srinagar",Polytechnic,N/A,Kashmir,Srinagar,Srinagar,"Bemina, Srinagar",J&K Board of Technical Education,Diploma in Engg.,N/A,0194-2491176,N/A,N/A,N/A
+K-POLY-03,"Govt. Polytechnic College, Anantnag",Polytechnic,N/A,Kashmir,Anantnag,Anantnag,N/A,J&K Board of Technical Education,Diploma in Engg.,govtpolyanantnag.org,N/A,N/A,N/A,N/A
+K-POLY-04,"Govt. Polytechnic College, Kulgam",Polytechnic,2012,Kashmir,Kulgam,Kulgam,N/A,J&K Board of Technical Education,Diploma in Engg.,www.gpckulgam.edu.in,N/A,N/A,N/A,N/A
+K-POLY-05,"Govt. Polytechnic College, Shopian",Polytechnic,2012,Kashmir,Shopian,Shopian,"Chanchwad Baskuchan, Shopian, 192303",J&K Board of Technical Education,Diploma in Engg.,www.gpcshopian.in,01933-260611,N/A,N/A,N/A
+K-POLY-06,"Govt. Polytechnic College, Baramulla",Polytechnic,N/A,Kashmir,Baramulla,Baramulla,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,N/A,N/A
+K-POLY-07,"Govt. Polytechnic College, Bandipora",Polytechnic,N/A,Kashmir,Bandipora,Bandipora,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,N/A,N/A
+K-POLY-08,"Govt. Polytechnic College, Budgam",Polytechnic,N/A,Kashmir,Budgam,Budgam,"Nagam, Budgam",J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,3.8,N/A,N/A
+K-POLY-09,"Govt. Polytechnic College, Kupwara",Polytechnic,N/A,Kashmir,Kupwara,Kupwara,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,"6,690",4
+K-POLY-10,"Govt. Polytechnic College, Ganderbal",Polytechnic,N/A,Kashmir,Ganderbal,Ganderbal,N/A,J&K Board of Technical Education,Diploma in Engg.,N/A,N/A,N/A,N/A,N/A
+K-GDC-40,"Govt. Hassan Khoihami Memorial Degree College, Bandipora",Degree College,2005,Kashmir,Bandipora,Bandipora,"Patushay, Bandipora, 193502",University of Kashmir,"BA, BSc, BCom, BCA",gdcbandipora.edu.in,principal@gdcbandipora.edu.in,N/A,N/A,N/A
+K-ENGG-01,"National Institute of Technology (NIT), Srinagar",Engineering,1960,Kashmir,Srinagar,Srinagar,"Hazratbal, Srinagar, 190006",Institute of National Importance,"B.Tech, M.Tech, M.Sc, PhD",www.nitsri.ac.in,0194-2422032,3.8,"Beautiful campus and good faculty, but placements are inconsistent and depend on the region's stability.","1,65,000"
+K-ENGG-02,Islamic University of Science and Technology (IUST),Engineering,2005,Kashmir,Pulwama,Awantipora,"Awantipora, Pulwama",State University,"B.Tech, M.Tech, MBA",www.iust.ac.in,N/A,3.6,"Praised for a modern, industry-relevant curriculum and structured environment.","11,980 - 3,10,000"

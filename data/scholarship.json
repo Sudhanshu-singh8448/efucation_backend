@@ -1,0 +1,735 @@
+[
+  {
+    "scholarship_id": "UNKNOWN_FIRST",
+    "scholarship_name": "Unknown Scholarship",
+    "provider_name": "Unknown Provider",
+    "provider_type": "Unknown",
+    "description": "Unknown scholarship description",
+    "application_portal_url": "Unknown",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": 25,
+      "income_ceiling_pa": 450000,
+      "social_category": null,
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": 80.0,
+        "competitive_exam": null
+      },
+      "other_conditions": ["Must be in the top 20th percentile of the Class 12 board exam.", "Not availing any other scholarship.", "50% of scholarships are reserved for girls."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Part of the scholarship amount can be used for fees.",
+      "maintenance_allowance": "₹12,000/annum for Graduation; ₹20,000/annum for Post-Graduation.",
+      "total_value_description": "Up to ₹20,000 per annum."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-06-02",
+      "application_end_date": "2025-10-31"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "MOMA_PRE_MIN",
+    "scholarship_name": "Pre-Matric Scholarships Scheme for Minorities",
+    "provider_name": "Ministry of Minority Affairs, Government of India",
+    "provider_type": "Central Government",
+    "description": "A scholarship to support students from minority communities for education from Class 1 to 10.",
+    "application_portal_url": "https://scholarships.gov.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 100000,
+      "social_category": ["Minority"],
+      "education_level": ["Pre-Matric (Class 1-10)"],
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": 50.0,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Covers admission and tuition fees.",
+      "maintenance_allowance": "Varies by class level.",
+      "total_value_description": "Covers academic fees and provides a maintenance allowance."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-06-02",
+      "application_end_date": "2025-09-15"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "MOMA_POST_MIN",
+    "scholarship_name": "Post-Matric Scholarships Scheme for Minorities",
+    "provider_name": "Ministry of Minority Affairs, Government of India",
+    "provider_type": "Central Government",
+    "description": "A scholarship to support students from minority communities for education from Class 11 to PhD.",
+    "application_portal_url": "https://scholarships.gov.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 200000,
+      "social_category": ["Minority"],
+      "education_level": null,
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": 50.0,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Covers admission and tuition fees.",
+      "maintenance_allowance": "Varies by course and level.",
+      "total_value_description": "Covers academic fees and provides a maintenance allowance."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-06-02",
+      "application_end_date": "2025-10-31"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "MOMA_MCM_MIN",
+    "scholarship_name": "Merit Cum Means Scholarship for Professional and Technical Courses",
+    "provider_name": "Ministry of Minority Affairs, Government of India",
+    "provider_type": "Central Government",
+    "description": "A scholarship for minority students pursuing technical or professional courses.",
+    "application_portal_url": "https://scholarships.gov.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 250000,
+      "social_category": ["Minority"],
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": 50.0,
+        "competitive_exam": null
+      },
+      "other_conditions": ["Admission must be based on a competitive examination."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Up to ₹20,000 per annum or actual, whichever is less.",
+      "maintenance_allowance": "Up to ₹1,000 per month.",
+      "total_value_description": "Up to ₹1,40,000 per annum including fee reimbursement."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-06-02",
+      "application_end_date": "2025-10-31"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "DEPWD_POST_DIS",
+    "scholarship_name": "Post-Matric Scholarship for Students with Disabilities",
+    "provider_name": "Department of Empowerment of Persons with Disabilities",
+    "provider_type": "Central Government",
+    "description": "Financial assistance to students with 40% or more disability for post-matriculation studies.",
+    "application_portal_url": "https://scholarships.gov.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 250000,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": ["Must have a disability of 40% or more."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Reimbursement of non-refundable fees.",
+      "maintenance_allowance": "Varies from ₹550 to ₹1600 per month depending on the course.",
+      "total_value_description": "Covers fees, maintenance allowance, and disability-specific allowances."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-06-02",
+      "application_end_date": "2025-10-31"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "AICTE_PMSSS",
+    "scholarship_name": "Prime Minister's Special Scholarship Scheme (PMSSS) for J&K and Ladakh",
+    "provider_name": "All India Council for Technical Education (AICTE)",
+    "provider_type": "UT Government/AICTE",
+    "description": "A scheme to encourage J&K and Ladakh students to pursue higher education in institutions outside the UTs.",
+    "application_portal_url": "https://www.aicte-jk-scholarship-gov.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 800000,
+      "social_category": null,
+      "education_level": ["Undergraduate"],
+      "course_stream": ["General", "Professional", "Engineering", "Medical"],
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Up to ₹30,000 (General), ₹1,25,000 (Professional), or ₹3,00,000 (Medical) per annum.",
+      "maintenance_allowance": "₹1,00,000 per annum for all streams.",
+      "total_value_description": "Substantial coverage of academic fees plus a fixed maintenance allowance."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-04-01",
+      "application_end_date": "2025-06-13"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "JKSWD_POST_ST",
+    "scholarship_name": "Post-Matric Scholarship to ST Students (J&K)",
+    "provider_name": "J&K Social Welfare Department",
+    "provider_type": "UT Government/AICTE",
+    "description": "A centrally sponsored scheme for ST students of J&K pursuing post-matriculation courses.",
+    "application_portal_url": "https://scholarships.gov.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 250000,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": ["Must have passed Matriculation or higher exam."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Covers compulsory non-refundable fees.",
+      "maintenance_allowance": "Up to ₹1,200 per month.",
+      "total_value_description": "Covers fees and provides a monthly allowance. Benefits details are not consistently specified."
+    },
+    "application_timeline": {
+      "application_start_date": "2024-11-27",
+      "application_end_date": "2024-12-27"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "JKSWD_POST_SC_OBC",
+    "scholarship_name": "Post-Matric Scholarship for SC/OBC/EBC/PC/DNT Students",
+    "provider_name": "J&K Social Welfare Department",
+    "provider_type": "UT Government/AICTE",
+    "description": "Scholarship for various reserved and economically weaker categories for post-matric studies.",
+    "application_portal_url": "https://jkdswdj.jk.gov.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 250000,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Payment of compulsory non-refundable fees.",
+      "maintenance_allowance": "Varies based on course and category.",
+      "total_value_description": "Covers fees and provides a maintenance allowance."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-09-01",
+      "application_end_date": "2025-11-30"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "AICTE_PRAGATI",
+    "scholarship_name": "AICTE Pragati Scholarship Scheme for Girls",
+    "provider_name": "All India Council for Technical Education (AICTE)",
+    "provider_type": "Central Government",
+    "description": "A scheme to provide financial assistance and encouragement to girl students to pursue technical education.",
+    "application_portal_url": "https://scholarships.gov.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "Female",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 800000,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Part of the lump sum amount.",
+      "maintenance_allowance": "Part of the lump sum amount.",
+      "total_value_description": "₹50,000 per annum for the duration of the course."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-06-02",
+      "application_end_date": "2025-10-31"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "AICTE_SAKSHAM",
+    "scholarship_name": "AICTE Saksham Scholarship Scheme for Specially-abled Students",
+    "provider_name": "All India Council for Technical Education (AICTE)",
+    "provider_type": "Central Government",
+    "description": "A scheme to support specially-abled students to pursue technical education.",
+    "application_portal_url": "https://scholarships.gov.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 800000,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Part of the lump sum amount.",
+      "maintenance_allowance": "Part of the lump sum amount.",
+      "total_value_description": "₹50,000 per annum for the duration of the course."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-06-02",
+      "application_end_date": "2025-10-31"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "JU_PG_SCH",
+    "scholarship_name": "University of Jammu - Post-Graduate Scholarship",
+    "provider_name": "University of Jammu",
+    "provider_type": "University",
+    "description": "Merit and Merit-cum-Means scholarships for students pursuing Master's degrees at the University of Jammu.",
+    "application_portal_url": "https://www.jammuuniversity.ac.in/student/scholarships",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 30000,
+      "social_category": null,
+      "education_level": ["Postgraduate"],
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": 50.0,
+        "competitive_exam": null
+      },
+      "other_conditions": ["Must be a student of Jammu University.", "Income ceiling of ₹2500/month is only for Merit-cum-Means scholarship."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Not specified.",
+      "maintenance_allowance": "₹200 per month.",
+      "total_value_description": "₹200 per month."
+    },
+    "application_timeline": {
+      "application_start_date": null,
+      "application_end_date": null
+    },
+    "required_documents": ["Undergraduate Marksheet", "Income Certificate (for means-based)", "Admission Proof"]
+  },
+  {
+    "scholarship_id": "JU_LLB_SCH",
+    "scholarship_name": "University of Jammu - Scholarships in LL.B. Course",
+    "provider_name": "University of Jammu",
+    "provider_type": "University",
+    "description": "Merit and Merit-cum-Means scholarships for students pursuing LL.B. at the University of Jammu.",
+    "application_portal_url": "https://www.jammuuniversity.ac.in/student/scholarships",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 30000,
+      "social_category": null,
+      "education_level": ["Undergraduate"],
+      "course_stream": ["Law"],
+      "academic_requirements": {
+        "min_percentage": 50.0,
+        "competitive_exam": null
+      },
+      "other_conditions": ["Must be a student of Jammu University.", "Income ceiling of ₹2500/month is only for Merit-cum-Means scholarship."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Not specified.",
+      "maintenance_allowance": "₹200 per month.",
+      "total_value_description": "₹200 per month."
+    },
+    "application_timeline": {
+      "application_start_date": null,
+      "application_end_date": null
+    },
+    "required_documents": ["Undergraduate Marksheet", "Income Certificate (for means-based)", "Admission Proof"]
+  },
+  {
+    "scholarship_id": "JU_RES_SCH",
+    "scholarship_name": "University of Jammu - Research Scholarships",
+    "provider_name": "University of Jammu",
+    "provider_type": "University",
+    "description": "Scholarships for scholars pursuing a Ph.D. degree at the University of Jammu.",
+    "application_portal_url": "https://www.jammuuniversity.ac.in/student/scholarships",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": null,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Not specified.",
+      "maintenance_allowance": "₹5,000 per month.",
+      "total_value_description": "₹5,000 per month plus an annual contingency grant."
+    },
+    "application_timeline": {
+      "application_start_date": null,
+      "application_end_date": null
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "KU_MERIT_SCH",
+    "scholarship_name": "University of Kashmir - Merit Scholarships",
+    "provider_name": "University of Kashmir",
+    "provider_type": "University",
+    "description": "Scholarships awarded to the top two merit holders in each postgraduate program at the University of Kashmir.",
+    "application_portal_url": "https://kashmiruniversity.net/aid.aspx",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": null,
+      "social_category": null,
+      "education_level": ["Postgraduate"],
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Not specified.",
+      "maintenance_allowance": "₹1,000 per month.",
+      "total_value_description": "₹1,000 per month for 12 months."
+    },
+    "application_timeline": {
+      "application_start_date": null,
+      "application_end_date": null
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "KU_RES_SCH",
+    "scholarship_name": "University of Kashmir - Research Scholarships",
+    "provider_name": "University of Kashmir",
+    "provider_type": "University",
+    "description": "Four scholarships are awarded in each department for students pursuing M.Phil/Ph.D. degrees.",
+    "application_portal_url": "https://kashmiruniversity.net/aid.aspx",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": null,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Not specified.",
+      "maintenance_allowance": "Monthly stipend and an annual contingency grant.",
+      "total_value_description": "Monthly stipend plus contingency grant."
+    },
+    "application_timeline": {
+      "application_start_date": null,
+      "application_end_date": null
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "CUJ_NON_NET",
+    "scholarship_name": "Central University of Jammu - Non-NET Fellowships",
+    "provider_name": "Central University of Jammu",
+    "provider_type": "University",
+    "description": "Fellowship for M.Phil/Ph.D. scholars not receiving financial aid from any other source.",
+    "application_portal_url": "https://www.cujammu.ac.in/en/scholarship-fellowship/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": null,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": ["Must be a registered full-time scholar at CUJ.", "Not receiving any other fellowship/scholarship."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Not specified.",
+      "maintenance_allowance": "₹5,000/month for M.Phil; ₹8,000/month for Ph.D.",
+      "total_value_description": "Up to ₹8,000 per month plus an annual contingency grant."
+    },
+    "application_timeline": {
+      "application_start_date": null,
+      "application_end_date": null
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "NGO_FFE",
+    "scholarship_name": "Foundation for Excellence (FFE) Scholarship",
+    "provider_name": "Foundation for Excellence",
+    "provider_type": "NGO/Private Foundation",
+    "description": "A scholarship for outstanding students from financially constrained backgrounds to pursue professional degrees in Engineering, Medicine, or Law.",
+    "application_portal_url": "https://ffe.org/scholarships/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 300000,
+      "social_category": null,
+      "education_level": ["Undergraduate"],
+      "course_stream": ["Engineering", "Medical", "Law"],
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": {
+          "JEE Main": 1000,
+          "NEET": 40000
+        }
+      },
+      "other_conditions": ["Only for first-year students.", "Admission must be based on merit in state or national level entrance exams."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Provides financial support for academic expenses.",
+      "maintenance_allowance": "Includes training, mentorship, and advice.",
+      "total_value_description": "Financial support along with mentorship."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-08-01",
+      "application_end_date": null
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "NGO_KEI_HSSP",
+    "scholarship_name": "Kashmir Education Initiative (KEI) - High School Scholarship Program (HSSP)",
+    "provider_name": "Kashmir Education Initiative",
+    "provider_type": "NGO/Private Foundation",
+    "description": "Financial support for at-risk, meritorious high school students in Kashmir from Class 9 to 12.",
+    "application_portal_url": "https://www.kashmirei.org/scholarship",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 300000,
+      "social_category": null,
+      "education_level": ["Post-Matric (Class 11-12)"],
+      "course_stream": null,
+      "academic_requirements": {
+        "min_percentage": 75.0,
+        "competitive_exam": null
+      },
+      "other_conditions": ["Minimum percentage is for Class 8 board exam.", "Must be a resident of Kashmir province."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Part of the total scholarship amount.",
+      "maintenance_allowance": "Part of the total scholarship amount.",
+      "total_value_description": "₹10k (Class 9), ₹15k (Class 10), ₹24k (Class 11 & 12) per annum."
+    },
+    "application_timeline": {
+      "application_start_date": "2025-12-01",
+      "application_end_date": "2026-01-31"
+    },
+    "required_documents": ["Class 8 Marksheet", "Income Certificate", "Admission Proof"]
+  },
+  {
+    "scholarship_id": "NGO_KEI_UG",
+    "scholarship_name": "Kashmir Education Initiative (KEI) - Undergraduate Scholarship",
+    "provider_name": "Kashmir Education Initiative",
+    "provider_type": "NGO/Private Foundation",
+    "description": "Scholarships for students from Kashmir province admitted to professional degree courses based on competitive exam ranks.",
+    "application_portal_url": "https://keikashmir.org/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": 300000,
+      "social_category": null,
+      "education_level": ["Undergraduate"],
+      "course_stream": ["Engineering", "Medical", "Agriculture"],
+      "academic_requirements": {
+        "min_percentage": 60.0,
+        "competitive_exam": {
+          "JEE": null,
+          "NEET": null,
+          "UET": null
+        }
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Financial support provided.",
+      "maintenance_allowance": "Financial support provided.",
+      "total_value_description": "Financial support and mentorship."
+    },
+    "application_timeline": {
+      "application_start_date": "2022-11-01",
+      "application_end_date": "2022-12-10"
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "NGO_CHINAR_STEPUP",
+    "scholarship_name": "CHINAR Kashmir - STEP-UP Program",
+    "provider_name": "CHINAR Kashmir",
+    "provider_type": "NGO/Private Foundation",
+    "description": "A need-based program to help students continue higher education who face economic hardship, especially due to loss or illness of a parent.",
+    "application_portal_url": "https://chinarkashmir.org/scholarship-training-and-education-programme-for-undergraduates-and-postgraduates-step-up/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": null,
+      "social_category": null,
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "course_stream": ["Engineering", "Medical", "Management", "Humanities", "Journalism"],
+      "academic_requirements": {
+        "min_percentage": null,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Support with course fees.",
+      "maintenance_allowance": "Support with boarding, lodging, and travel expenses.",
+      "total_value_description": "Comprehensive financial support based on individual need."
+    },
+    "application_timeline": {
+      "application_start_date": null,
+      "application_end_date": null
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "NGO_SJF",
+    "scholarship_name": "Sitaram Jindal Foundation Scholarship",
+    "provider_name": "Sitaram Jindal Foundation",
+    "provider_type": "NGO/Private Foundation",
+    "description": "A national merit-cum-means scholarship for students from Class 11 to PG, including professional and technical courses.",
+    "application_portal_url": "http://157.119.42.223:8011/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": 30,
+      "income_ceiling_pa": 400000,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": ["General", "Engineering", "Medical"],
+      "academic_requirements": {
+        "min_percentage": 55.0,
+        "competitive_exam": null
+      },
+      "other_conditions": ["Income ceiling is ₹4 lakh for salaried, ₹2.5 lakh for others.", "Minimum percentage varies by course, gender, and state (e.g., 60% for girls, 65% for boys in Class 12)."]
+    },
+    "benefits": {
+      "academic_fee_coverage": "Part of the monthly allowance.",
+      "maintenance_allowance": "Ranges from ₹500 to ₹3,200 per month depending on course and gender.",
+      "total_value_description": "Up to ₹3,200 per month, with additional support for hostellers."
+    },
+    "application_timeline": {
+      "application_start_date": null,
+      "application_end_date": null
+    },
+    "required_documents": null
+  },
+  {
+    "scholarship_id": "NGO_CCB",
+    "scholarship_name": "Combined Counselling Board (CCB) Scholarship",
+    "provider_name": "Combined Counselling Board",
+    "provider_type": "NGO/Private Foundation",
+    "description": "Provides scholarships in the form of fee concessions for admission into CCB-affiliated colleges across India.",
+    "application_portal_url": "https://ccbscholarship.in/",
+    "eligibility_criteria": {
+      "domicile": ["Jammu & Kashmir"],
+      "gender": "All",
+      "min_age": null,
+      "max_age": null,
+      "income_ceiling_pa": null,
+      "social_category": null,
+      "education_level": null,
+      "course_stream": ["Engineering", "Pharmacy", "Hotel Management", "Management"],
+      "academic_requirements": {
+        "min_percentage": 40.0,
+        "competitive_exam": null
+      },
+      "other_conditions": null
+    },
+    "benefits": {
+      "academic_fee_coverage": "Up to 80% of tuition fees.",
+      "maintenance_allowance": "Hostel fee concession provided.",
+      "total_value_description": "Scholarship ranges from ₹60,000 to ₹2,50,000 depending on the course."
+    },
+    "application_timeline": {
+      "application_start_date": "2024-01-01",
+      "application_end_date": "2024-04-15"
+    },
+    "required_documents": null
+  }
+]

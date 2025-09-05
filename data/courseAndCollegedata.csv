@@ -1,0 +1,38 @@
+College_Name,Latitude,Longitude,Course_Name,Degree_Level,RIASEC_Trait,Potential_Professions,College_Rating_Placeholder,Course_Rating_Placeholder
+University of Kashmir,34.0837,74.7973,BBA,UG,E,"Manager, Entrepreneur, Marketing Manager, Financial Advisor",4.1,4.3
+University of Kashmir,34.0837,74.7973,BCA,UG,I,"Software Developer, Data Analyst, System Designer",4.1,4.4
+University of Kashmir,34.0837,34.0837,LLB,UG,E,"Lawyer, Paralegal, Public Relations Specialist",4.1,4.2
+University of Kashmir,34.0837,34.0837,B.COM,UG,C,"Accountant, Financial Analyst, Bank Teller, Auditor",4.2,4
+University of Kashmir,34.0837,34.0837,B.Sc Agriculture,UG,I,"Farmer, Agricultural Scientist, Forester, Veterinarian",4.5,3.8
+University of Kashmir,34.0837,34.0837,B.ED,UG,S,Teacher,3.8,4.2
+University of Jammu,32.6885,74.8643,B.Sc Physics,UG,I,"Scientist (Physicist), Researcher, Mathematician, Teacher",4.2,4.5
+University of Jammu,32.6885,74.8643,BA English,UG,A,"Writer/Author, Journalist, Teacher, Editor",4.2,4.3
+University of Jammu,32.6885,74.8643,MBA,PG,E,"Manager/Executive, Entrepreneur, Financial Advisor, Marketing Manager",4.2,4.6
+University of Jammu,32.6885,74.8643,B.COM,UG,C,"Accountant, Financial Analyst, Bank Teller, Auditor",4.7,4
+University of Jammu,32.6885,74.8643,BBA,UG,I,"Manager, Entrepreneur, Marketing Manager, Financial Advisor",4,3.9
+SKUAST-K (Srinagar),34.1437,74.7973,B.Sc Agriculture,UG,R,"Farmer, Agricultural Scientist, Forester, Veterinarian",4.8,4.6
+SKUAST-K (Srinagar),34.1437,74.7973,B.Tech Agricultural Engineering,UG,R,"Mechanic, Engineer, Scientist, Researcher",4.4,4.5
+SKUAST-J (Jammu),32.6865,74.8219,B.Sc Veterinary Sciences,UG,I,"Veterinarian, Scientist (Biologist), Researcher",4.3,4.7
+SMVDU Katra,32.9377,74.9535,B.Tech Computer Science Engineering,UG,I,"Software Developer, Data Analyst, AI/ML Engineer, Researcher",4.5,4.8
+SMVDU Katra,32.9377,74.9535,B.Arch (Architecture),UG,A,"Architect, Interior Designer, Urban Planner",4.5,4.6
+NIT Srinagar,34.1207,74.8326,B.Tech Civil Engineering,UG,R,"Civil Engineer, Structural Engineer, Project Manager",4.6,4.5
+NIT Srinagar,34.1207,74.8326,B.Tech Mechanical Engineering,UG,R,"Mechanic, Mechanical Engineer, Robotics Engineer",4.6,4.6
+NIT Srinagar,34.1207,74.8326,M.Sc Chemistry,PG,I,"Scientist (Chemist), Pharmacist, Researcher",4.6,4.7
+IUST Awantipora,33.9167,75.0333,B.Tech Food Technology,UG,I,"Food Scientist, Quality Control Manager, Chef",4,4.2
+IUST Awantipora,33.9167,75.0333,BA Journalism,UG,A,"Journalist, Writer, Public Relations Specialist, Marketing Manager",4,4.1
+AIIMS Jammu,32.7266,74.857,MBBS,UG,I,"Doctor/Physician, Surgeon, Medical Researcher",4.8,4.9
+AIIMS Jammu,32.7266,74.857,B.Sc Nursing,UG,S,"Nurse, Physical Therapist, Healthcare Administrator",4.8,4.7
+GMC Jammu,32.7255,74.867,MBBS,UG,I,"Doctor/Physician, Surgeon, Medical Researcher",4.3,4.5
+GMC Jammu,32.7255,74.867,B.Sc Paramedical,UG,S,"Surgical Technologist, Lab Technician, Radiographer",4.3,4.2
+GMC Srinagar,34.0673,74.8225,MD (Doctor of Medicine),PG,I,"Specialist Doctor, Medical Researcher, Professor",4.4,4.8
+SKIMS Srinagar,34.1037,74.7925,MBBS,UG,I,"Doctor/Physician, Surgeon",4.7,4.8
+GCET Jammu,32.6833,74.8833,B.E. Electrical Engineering,UG,R,"Electrician, Electrical Engineer, Electronics Engineer",3.9,4
+Amar Singh College Srinagar,34.0754,74.7981,BA Social Sciences,UG,S,"Social Worker, Counselor, Teacher, Psychologist",3.8,3.9
+Amar Singh College Srinagar,34.0754,74.7981,B.Com,UG,C,"Accountant, Financial Analyst, Bank Teller, Auditor",3.8,4
+Shri Mata Vaishno Devi University,32.9891,74.9546,B.Tech Computer Science Engineering,UG,I,"Software Developer, Data Analyst, AI/ML Engineer, Researcher",4,3.9
+Shri Mata Vaishno Devi University,32.9891,74.9546,B.Arch (Architecture),UG,A,"Architect, Interior Designer, Urban Planner",4.3,4
+Shri Mata Vaishno Devi University,32.9891,74.9546,B.Tech Mechanical Engineering,UG,I,"Mechanic, Mechanical Engineer, Robotics Engineer",4.1,4.5
+Islamic University of Science & Technology,33.9167,75.0233,B.Tech Food Tech,UG,I,"Food Scientist, Quality Control Manager, Chef",3.4,4.6
+Islamic University of Science & Technology,33.9167,75.0233,B.Sc Nursing,UG,S,"Nurse, Physical Therapist, Healthcare Administrator",3.5,4
+Islamic University of Science & Technology,33.9167,75.0233,BA Journalism,UG,A,"Journalist, Writer, Public Relations Specialist, Marketing Manager",4.7,3
+Govt. College for Women Nawakadal,34.0933,74.7877,B.Sc Home Science,UG,A,"Interior Designer, Nutritionist, Fashion Designer",3.7,3.8
