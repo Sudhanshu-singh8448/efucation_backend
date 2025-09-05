@@ -1,0 +1,263 @@
+2025-09-05 22:07:42,109 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:07:42,120 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:07:42,120 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:07:42,121 - __main__ - INFO - Debug mode: False
+2025-09-05 22:07:42,199 - database - INFO - Database connection closed
+2025-09-05 22:07:59,859 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:07:59,877 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:07:59,878 - __main__ - INFO - Server running on 0.0.0.0:5000
+2025-09-05 22:07:59,878 - __main__ - INFO - Debug mode: False
+2025-09-05 22:07:59,990 - database - INFO - Database connection closed
+2025-09-05 22:08:16,649 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:08:16,667 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:08:16,667 - __main__ - INFO - Server running on 0.0.0.0:5001
+2025-09-05 22:08:16,668 - __main__ - INFO - Debug mode: False
+2025-09-05 22:08:16,679 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.12:5001
+2025-09-05 22:08:16,679 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:08:32,684 - database - INFO - Database connection closed
+2025-09-05 22:09:26,115 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:09:26,116 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:09:26,127 - services.college_finder - ERROR - Error loading college data: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-09-05 22:09:26,128 - services.course_suggestion - ERROR - Error loading course data: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-09-05 22:09:26,128 - services.news_recommender - ERROR - Error loading news data: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-09-05 22:09:26,128 - services.scholarship - ERROR - Error loading scholarship data: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-09-05 22:09:26,128 - __main__ - INFO - Data initialization completed
+2025-09-05 22:09:26,141 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:09:26,142 - __main__ - INFO - Server running on 0.0.0.0:5001
+2025-09-05 22:09:26,142 - __main__ - INFO - Debug mode: False
+2025-09-05 22:09:26,147 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.12:5001
+2025-09-05 22:09:26,148 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:09:43,460 - database - INFO - Database connection closed
+2025-09-05 22:09:51,357 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:09:51,358 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:09:51,370 - services.college_finder - ERROR - Error loading college data: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-09-05 22:09:51,370 - services.course_suggestion - ERROR - Error loading course data: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-09-05 22:09:51,370 - services.news_recommender - ERROR - Error loading news data: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-09-05 22:09:51,370 - services.scholarship - ERROR - Error loading scholarship data: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-09-05 22:09:51,370 - __main__ - INFO - Data initialization completed
+2025-09-05 22:09:51,384 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:09:51,384 - __main__ - INFO - Server running on 0.0.0.0:5001
+2025-09-05 22:09:51,384 - __main__ - INFO - Debug mode: False
+2025-09-05 22:09:51,390 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.12:5001
+2025-09-05 22:09:51,390 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:09:57,734 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 22:09:57] "GET /api/health HTTP/1.1" 200 -
+2025-09-05 22:10:12,474 - __main__ - INFO - GET / from 127.0.0.1
+2025-09-05 22:10:12,475 - __main__ - INFO - Response: 200 for GET /
+2025-09-05 22:10:12,475 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 22:10:12] "GET / HTTP/1.1" 200 -
+2025-09-05 22:10:12,568 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 22:10:12] "GET /api/health HTTP/1.1" 200 -
+2025-09-05 22:10:12,570 - __main__ - INFO - GET /api/career/health from 127.0.0.1
+2025-09-05 22:10:12,570 - services.career_guidance - ERROR - Health check failed: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-09-05 22:10:12,570 - __main__ - INFO - Response: 500 for GET /api/career/health
+2025-09-05 22:10:12,571 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 22:10:12] "[35m[1mGET /api/career/health HTTP/1.1[0m" 500 -
+2025-09-05 22:10:12,573 - __main__ - INFO - POST /api/career/start-assessment from 127.0.0.1
+2025-09-05 22:10:12,573 - __main__ - INFO - Response: 404 for POST /api/career/start-assessment
+2025-09-05 22:10:12,573 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 22:10:12] "[33mPOST /api/career/start-assessment HTTP/1.1[0m" 404 -
+2025-09-05 22:18:20,448 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:18:20,449 - app - INFO - Initializing data collections...
+2025-09-05 22:18:20,450 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:18:20,450 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:18:20,450 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:18:20,450 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:18:20,451 - app - INFO - Data initialization completed
+2025-09-05 22:24:08,481 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:24:08,483 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:24:08,483 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:24:08,483 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:24:08,483 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:24:08,484 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:24:08,484 - __main__ - INFO - Data initialization completed
+2025-09-05 22:24:08,501 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:24:08,502 - __main__ - INFO - Environment: development
+2025-09-05 22:24:08,502 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:24:08,502 - __main__ - INFO - Debug mode: False
+2025-09-05 22:24:08,588 - database - INFO - Database connection closed
+2025-09-05 22:24:27,005 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:24:27,005 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:24:27,006 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:24:27,006 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:24:27,006 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:24:27,006 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:24:27,006 - __main__ - INFO - Data initialization completed
+2025-09-05 22:24:27,020 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:24:27,021 - __main__ - INFO - Environment: development
+2025-09-05 22:24:27,021 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:24:27,021 - __main__ - INFO - Debug mode: False
+2025-09-05 22:24:27,034 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:24:27,035 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:24:37,932 - database - INFO - Database connection closed
+2025-09-05 22:25:10,188 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:25:10,191 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:25:10,191 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:25:10,191 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:25:10,192 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:25:10,192 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:25:10,192 - __main__ - INFO - Data initialization completed
+2025-09-05 22:25:10,208 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:25:10,208 - __main__ - INFO - Environment: development
+2025-09-05 22:25:10,208 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:25:10,208 - __main__ - INFO - Debug mode: False
+2025-09-05 22:25:10,216 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:25:10,216 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:25:34,148 - database - INFO - Database connection closed
+2025-09-05 22:25:57,414 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:25:57,415 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:25:57,415 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:25:57,415 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:25:57,416 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:25:57,416 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:25:57,416 - __main__ - INFO - Data initialization completed
+2025-09-05 22:25:57,433 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:25:57,433 - __main__ - INFO - Environment: development
+2025-09-05 22:25:57,433 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:25:57,433 - __main__ - INFO - Debug mode: False
+2025-09-05 22:25:57,441 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:25:57,441 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:26:10,794 - database - INFO - Database connection closed
+2025-09-05 22:26:23,682 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:26:23,683 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:26:23,683 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:26:23,683 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:26:23,683 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:26:23,683 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:26:23,684 - __main__ - INFO - Data initialization completed
+2025-09-05 22:26:23,701 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:26:23,702 - __main__ - INFO - Environment: development
+2025-09-05 22:26:23,702 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:26:23,702 - __main__ - INFO - Debug mode: False
+2025-09-05 22:26:23,710 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:26:23,710 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:26:36,988 - database - INFO - Database connection closed
+2025-09-05 22:26:55,288 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:26:55,289 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:26:55,289 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:26:55,289 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:26:55,289 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:26:55,290 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:26:55,290 - __main__ - INFO - Data initialization completed
+2025-09-05 22:26:55,307 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:26:55,307 - __main__ - INFO - Environment: development
+2025-09-05 22:26:55,307 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:26:55,307 - __main__ - INFO - Debug mode: False
+2025-09-05 22:26:55,315 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:26:55,315 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:27:09,851 - database - INFO - Database connection closed
+2025-09-05 22:27:41,264 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:27:41,265 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:27:41,265 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:27:41,265 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:27:41,265 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:27:41,265 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:27:41,265 - __main__ - INFO - Data initialization completed
+2025-09-05 22:27:41,277 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:27:41,277 - __main__ - INFO - Environment: development
+2025-09-05 22:27:41,277 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:27:41,277 - __main__ - INFO - Debug mode: False
+2025-09-05 22:27:41,285 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:27:41,285 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:27:55,414 - database - INFO - Database connection closed
+2025-09-05 22:28:17,845 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:28:17,846 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:28:17,846 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:28:17,847 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:28:17,847 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:28:17,847 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:28:17,847 - __main__ - INFO - Data initialization completed
+2025-09-05 22:28:17,864 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:28:17,864 - __main__ - INFO - Environment: development
+2025-09-05 22:28:17,864 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:28:17,864 - __main__ - INFO - Debug mode: False
+2025-09-05 22:28:17,872 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:28:17,872 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:30:37,244 - database - INFO - Database connection closed
+2025-09-05 22:46:18,842 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:46:18,843 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:46:18,843 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:46:18,843 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:46:18,843 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:46:18,843 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:46:18,843 - __main__ - INFO - Data initialization completed
+2025-09-05 22:46:18,889 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:46:18,889 - __main__ - INFO - Environment: development
+2025-09-05 22:46:18,889 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:46:18,895 - __main__ - INFO - Debug mode: False
+2025-09-05 22:46:18,954 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:46:18,955 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:46:33,257 - database - INFO - Database connection closed
+2025-09-05 22:49:13,287 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:49:13,288 - __main__ - INFO - Initializing data collections...
+2025-09-05 22:49:13,289 - services.college_finder - WARNING - College CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/college_list.csv
+2025-09-05 22:49:13,289 - services.course_suggestion - WARNING - Course CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/courseAndCollegedata.csv
+2025-09-05 22:49:13,289 - services.news_recommender - WARNING - News CSV not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/news_data.csv
+2025-09-05 22:49:13,289 - services.scholarship - WARNING - Scholarship JSON not found at /Users/sudhanshukumar/project/backend/unified_backend/nosql_backend/services/../../data/scholarship.json
+2025-09-05 22:49:13,289 - __main__ - INFO - Data initialization completed
+2025-09-05 22:49:13,308 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:49:13,308 - __main__ - INFO - Environment: development
+2025-09-05 22:49:13,309 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:49:13,309 - __main__ - INFO - Debug mode: False
+2025-09-05 22:49:13,317 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:49:13,318 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:49:18,108 - werkzeug - INFO - 127.0.0.1 - - [05/Sep/2025 22:49:18] "GET /api/health HTTP/1.1" 200 -
+2025-09-05 22:57:41,089 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:57:41,111 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:57:41,112 - __main__ - INFO - Environment: development
+2025-09-05 22:57:41,112 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:57:41,112 - __main__ - INFO - Debug mode: False
+2025-09-05 22:57:41,356 - database - INFO - Database connection closed
+2025-09-05 22:58:25,665 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 22:58:25,682 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 22:58:25,682 - __main__ - INFO - Environment: development
+2025-09-05 22:58:25,682 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 22:58:25,682 - __main__ - INFO - Debug mode: False
+2025-09-05 22:58:25,694 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 22:58:25,694 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 22:59:24,599 - database - INFO - Database connection closed
+2025-09-05 23:01:41,830 - database - INFO - ✅ Connected to MongoDB database: education_platform
+2025-09-05 23:01:41,842 - __main__ - INFO - Starting Unified Education Backend - NoSQL Version
+2025-09-05 23:01:41,842 - __main__ - INFO - Environment: development
+2025-09-05 23:01:41,842 - __main__ - INFO - Server running on 0.0.0.0:8080
+2025-09-05 23:01:41,842 - __main__ - INFO - Debug mode: False
+2025-09-05 23:01:41,849 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.12:8080
+2025-09-05 23:01:41,849 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-05 23:02:01,411 - database - INFO - Database connection closed

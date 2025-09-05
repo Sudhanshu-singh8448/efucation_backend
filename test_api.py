@@ -6,7 +6,7 @@ import requests
 import json
 import time
 
-BASE_URL = "http://localhost:8080/api/career"
+BASE_URL = "http://localhost:8081/api/career"
 
 def test_health():
     """Test health endpoint"""

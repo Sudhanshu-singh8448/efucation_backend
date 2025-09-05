@@ -126,7 +126,7 @@ def get_question(session_id):
     """Get the next question"""
     try:
         db = SessionLocal()
-        session_data = db.query(CareerSession).filter(CareerSession.id == session_id).first()
+        session_data = db.query(CareerSession).filter(CareerSession.session_id == session_id).first()
         db.close()
 
         if not session_data:
@@ -179,7 +179,7 @@ def submit_answer():
             }), 400
 
         db = SessionLocal()
-        session_data = db.query(CareerSession).filter(CareerSession.id == session_id).first()
+        session_data = db.query(CareerSession).filter(CareerSession.session_id == session_id).first()
 
         if not session_data:
             db.close()
@@ -203,59 +203,51 @@ def submit_answer():
             )
             db.add(new_answer)
 
-            # Update RIASEC score using update query
+            # Update RIASEC score and move to next question
             riasec_type = question_data['riasec_type']
-            score_column = None
             if riasec_type == 'realistic':
-                score_column = CareerSession.realistic_score
+                session_data.realistic_score += int(answer)
             elif riasec_type == 'investigative':
-                score_column = CareerSession.investigative_score
+                session_data.investigative_score += int(answer)
             elif riasec_type == 'artistic':
-                score_column = CareerSession.artistic_score
+                session_data.artistic_score += int(answer)
             elif riasec_type == 'social':
-                score_column = CareerSession.social_score
+                session_data.social_score += int(answer)
             elif riasec_type == 'enterprising':
-                score_column = CareerSession.enterprising_score
+                session_data.enterprising_score += int(answer)
             elif riasec_type == 'conventional':
-                score_column = CareerSession.conventional_score
+                session_data.conventional_score += int(answer)
 
-            if score_column is not None:
-                db.query(CareerSession).filter(CareerSession.id == session_id).update({
-                    score_column: score_column + int(answer),
-                    CareerSession.current_question: CareerSession.current_question + 1
-                })
+            session_data.current_question += 1
 
             # Check if test is completed
-            updated_session = db.query(CareerSession).filter(CareerSession.id == session_id).first()
-            if updated_session.current_question >= len(QUESTIONS):
-                db.query(CareerSession).filter(CareerSession.id == session_id).update({
-                    CareerSession.completed: 1
-                })
+            if session_data.current_question >= len(QUESTIONS):
+                session_data.completed = 1
 
                 # Calculate final results
-                total_score = (updated_session.realistic_score + updated_session.investigative_score +
-                             updated_session.artistic_score + updated_session.social_score +
-                             updated_session.enterprising_score + updated_session.conventional_score)
+                total_score = (session_data.realistic_score + session_data.investigative_score +
+                             session_data.artistic_score + session_data.social_score +
+                             session_data.enterprising_score + session_data.conventional_score)
 
                 percentages = {}
                 if total_score > 0:
                     percentages = {
-                        'realistic': round((updated_session.realistic_score / total_score) * 100, 2),
-                        'investigative': round((updated_session.investigative_score / total_score) * 100, 2),
-                        'artistic': round((updated_session.artistic_score / total_score) * 100, 2),
-                        'social': round((updated_session.social_score / total_score) * 100, 2),
-                        'enterprising': round((updated_session.enterprising_score / total_score) * 100, 2),
-                        'conventional': round((updated_session.conventional_score / total_score) * 100, 2)
+                        'realistic': round((session_data.realistic_score / total_score) * 100, 2),
+                        'investigative': round((session_data.investigative_score / total_score) * 100, 2),
+                        'artistic': round((session_data.artistic_score / total_score) * 100, 2),
+                        'social': round((session_data.social_score / total_score) * 100, 2),
+                        'enterprising': round((session_data.enterprising_score / total_score) * 100, 2),
+                        'conventional': round((session_data.conventional_score / total_score) * 100, 2)
                     }
 
                 # Find dominant personality type
                 scores = {
-                    'realistic': updated_session.realistic_score,
-                    'investigative': updated_session.investigative_score,
-                    'artistic': updated_session.artistic_score,
-                    'social': updated_session.social_score,
-                    'enterprising': updated_session.enterprising_score,
-                    'conventional': updated_session.conventional_score
+                    'realistic': session_data.realistic_score,
+                    'investigative': session_data.investigative_score,
+                    'artistic': session_data.artistic_score,
+                    'social': session_data.social_score,
+                    'enterprising': session_data.enterprising_score,
+                    'conventional': session_data.conventional_score
                 }
                 dominant_type = max(scores, key=scores.get)
 
@@ -283,8 +275,8 @@ def submit_answer():
                     'success': True,
                     'session_id': session_id,
                     'completed': False,
-                    'next_question': updated_session.current_question + 1,
-                    'progress': (updated_session.current_question / len(QUESTIONS)) * 100,
+                    'next_question': session_data.current_question + 1,
+                    'progress': (session_data.current_question / len(QUESTIONS)) * 100,
                     'message': 'Answer recorded successfully'
                 }), 200
         else:
@@ -307,7 +299,7 @@ def get_results(session_id):
     """Get test results for a session"""
     try:
         db = SessionLocal()
-        session_data = db.query(CareerSession).filter(CareerSession.id == session_id).first()
+        session_data = db.query(CareerSession).filter(CareerSession.session_id == session_id).first()
 
         if not session_data:
             db.close()

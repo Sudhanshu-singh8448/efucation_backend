@@ -20,6 +20,10 @@ from services.scholarship import scholarship_bp
 app = Flask(__name__)
 CORS(app)
 
+# Configure Flask app from environment variables
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-key-change-in-production')
+app.config['DEBUG'] = os.environ.get('FLASK_ENV') == 'development'
+
 # Register all service blueprints with prefixes
 app.register_blueprint(career_guidance_bp, url_prefix='/api/career')
 app.register_blueprint(college_finder_bp, url_prefix='/api/college')

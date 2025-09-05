@@ -43,7 +43,7 @@ def test_database_operations():
         session_id = str(uuid4())
         
         new_session = CareerSession(
-            id=session_id,
+            session_id=session_id,
             completed=0,
             current_question=0,
             realistic_score=0,
@@ -58,7 +58,7 @@ def test_database_operations():
         db.commit()
         
         # Test retrieval
-        retrieved = db.query(CareerSession).filter(CareerSession.id == session_id).first()
+        retrieved = db.query(CareerSession).filter(CareerSession.session_id == session_id).first()
         if retrieved:
             print(f"✅ Database operations successful! Session: {session_id}")
             
