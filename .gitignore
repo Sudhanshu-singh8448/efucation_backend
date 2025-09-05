@@ -55,7 +55,21 @@ htmlcov/
 # Environment variables
 .env.local
 .env.production
+.env.development
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and keys
+secrets.json
+config/secrets.json
+keys/
+*.key
+*.pem
 
 # Backup files
 *.bak
 *.backup
+*.old

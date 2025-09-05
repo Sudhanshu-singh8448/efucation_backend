@@ -27,3 +27,7 @@ pytest>=7.4.0
 
 # Production server (for deployment)
 gunicorn>=21.2.0
+
+# Database dependencies
+psycopg2-binary>=2.9.0
+SQLAlchemy>=2.0.0
