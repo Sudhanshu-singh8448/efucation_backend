@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Guidance API Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .success { background-color: #d4edda; border-color: #c3e6cb; }
+        .error { background-color: #f8d7da; border-color: #f5c6cb; }
+        button { padding: 10px 15px; margin: 5px; cursor: pointer; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 3px; overflow-x: auto; }
+        input { padding: 8px; margin: 5px; width: 300px; }
+    </style>
+</head>
+<body>
+    <h1>🎯 Career Guidance API Test</h1>
+    <p>Test all career guidance APIs from your browser</p>
+
+    <div id="results"></div>
+
+    <div class="test-section">
+        <h3>1. Health Check</h3>
+        <button onclick="testHealth()">Test Health</button>
+    </div>
+
+    <div class="test-section">
+        <h3>2. Start Test</h3>
+        <button onclick="startTest()">Start New Test</button>
+        <div id="session-info"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>3. Get Question</h3>
+        <button onclick="getQuestion()">Get Next Question</button>
+        <div id="question-info"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>4. Submit Answer</h3>
+        <input type="number" id="answer-input" placeholder="Answer (1-5)" min="1" max="5" value="4">
+        <button onclick="submitAnswer()">Submit Answer</button>
+        <div id="answer-info"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>5. Get Results</h3>
+        <button onclick="getResults()">Get Test Results</button>
+        <div id="results-info"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>🚀 Quick Complete Test</h3>
+        <button onclick="completeTest()">Complete Test Automatically</button>
+    </div>
+
+    <script>
+        let currentSessionId = null;
+        const BASE_URL = 'http://localhost:8080/api/career';
+
+        function log(message, type = 'info') {
+            const results = document.getElementById('results');
+            const div = document.createElement('div');
+            div.className = `test-section ${type}`;
+            div.innerHTML = `<pre>${new Date().toLocaleTimeString()}: ${message}</pre>`;
+            results.appendChild(div);
+            results.scrollTop = results.scrollHeight;
+        }
+
+        async function makeRequest(method, url, data = null) {
+            try {
+                const options = {
+                    method: method,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                };
+
+                if (data) {
+                    options.body = JSON.stringify(data);
+                }
+
+                const response = await fetch(url, options);
+                const result = await response.json();
+
+                return {
+                    ok: response.ok,
+                    status: response.status,
+                    data: result
+                };
+            } catch (error) {
+                return {
+                    ok: false,
+                    error: error.message
+                };
+            }
+        }
+
+        async function testHealth() {
+            log('Testing Health Check...');
+            const result = await makeRequest('GET', `${BASE_URL}/health`);
+
+            if (result.ok) {
+                log(`✅ Health Check SUCCESS: ${JSON.stringify(result.data, null, 2)}`, 'success');
+            } else {
+                log(`❌ Health Check FAILED: ${result.error || JSON.stringify(result.data)}`, 'error');
+            }
+        }
+
+        async function startTest() {
+            log('Starting new test session...');
+            const result = await makeRequest('POST', `${BASE_URL}/start-test`, {});
+
+            if (result.ok) {
+                currentSessionId = result.data.session_id;
+                document.getElementById('session-info').innerHTML =
+                    `<p><strong>Session ID:</strong> ${currentSessionId}</p>`;
+                log(`✅ Test Started SUCCESS: ${JSON.stringify(result.data, null, 2)}`, 'success');
+            } else {
+                log(`❌ Start Test FAILED: ${result.error || JSON.stringify(result.data)}`, 'error');
+            }
+        }
+
+        async function getQuestion() {
+            if (!currentSessionId) {
+                log('❌ No active session. Please start a test first.', 'error');
+                return;
+            }
+
+            log(`Getting question for session: ${currentSessionId}`);
+            const result = await makeRequest('GET', `${BASE_URL}/question/${currentSessionId}`);
+
+            if (result.ok) {
+                document.getElementById('question-info').innerHTML =
+                    `<p><strong>Question ${result.data.question_number}:</strong> ${result.data.question}</p>
+                     <p><strong>Type:</strong> ${result.data.riasec_type}</p>
+                     <p><strong>Progress:</strong> ${result.data.progress}%</p>`;
+                log(`✅ Get Question SUCCESS: ${JSON.stringify(result.data, null, 2)}`, 'success');
+            } else {
+                log(`❌ Get Question FAILED: ${result.error || JSON.stringify(result.data)}`, 'error');
+            }
+        }
+
+        async function submitAnswer() {
+            if (!currentSessionId) {
+                log('❌ No active session. Please start a test first.', 'error');
+                return;
+            }
+
+            const answer = parseInt(document.getElementById('answer-input').value);
+            if (answer < 1 || answer > 5) {
+                log('❌ Answer must be between 1 and 5', 'error');
+                return;
+            }
+
+            log(`Submitting answer ${answer} for session: ${currentSessionId}`);
+            const result = await makeRequest('POST', `${BASE_URL}/answer`, {
+                session_id: currentSessionId,
+                answer: answer
+            });
+
+            if (result.ok) {
+                document.getElementById('answer-info').innerHTML =
+                    `<p><strong>Status:</strong> ${result.data.completed ? 'Completed' : 'In Progress'}</p>
+                     <p><strong>Next Question:</strong> ${result.data.next_question || 'N/A'}</p>
+                     <p><strong>Progress:</strong> ${result.data.progress}%</p>`;
+                log(`✅ Submit Answer SUCCESS: ${JSON.stringify(result.data, null, 2)}`, 'success');
+            } else {
+                log(`❌ Submit Answer FAILED: ${result.error || JSON.stringify(result.data)}`, 'error');
+            }
+        }
+
+        async function getResults() {
+            if (!currentSessionId) {
+                log('❌ No active session. Please start a test first.', 'error');
+                return;
+            }
+
+            log(`Getting results for session: ${currentSessionId}`);
+            const result = await makeRequest('GET', `${BASE_URL}/results/${currentSessionId}`);
+
+            if (result.ok) {
+                const results = result.data.results;
+                document.getElementById('results-info').innerHTML =
+                    `<p><strong>Dominant Type:</strong> ${results.dominant_type}</p>
+                     <p><strong>Career Recommendations:</strong> ${results.career_recommendations.join(', ')}</p>
+                     <p><strong>Total Score:</strong> ${results.total_score}</p>`;
+                log(`✅ Get Results SUCCESS: ${JSON.stringify(result.data, null, 2)}`, 'success');
+            } else {
+                log(`❌ Get Results FAILED: ${result.error || JSON.stringify(result.data)}`, 'error');
+            }
+        }
+
+        async function completeTest() {
+            if (!currentSessionId) {
+                log('❌ No active session. Please start a test first.', 'error');
+                return;
+            }
+
+            log('Completing test automatically...');
+
+            // Answer remaining questions quickly
+            for (let i = 0; i < 24; i++) {
+                try {
+                    const result = await makeRequest('POST', `${BASE_URL}/answer`, {
+                        session_id: currentSessionId,
+                        answer: 3  // Default answer
+                    });
+
+                    if (result.ok && result.data.completed) {
+                        log(`✅ Test completed after ${i + 1} answers!`, 'success');
+                        await getResults();
+                        return;
+                    }
+                } catch (error) {
+                    log(`❌ Error during auto-completion: ${error}`, 'error');
+                    return;
+                }
+            }
+
+            log('✅ Auto-completion finished', 'success');
+        }
+
+        // Auto-test health on page load
+        window.onload = function() {
+            setTimeout(testHealth, 1000);
+        };
+    </script>
+</body>
+</html>
